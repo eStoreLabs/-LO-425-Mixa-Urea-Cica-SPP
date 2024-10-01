@@ -37,12 +37,12 @@
 #es-mixa.es-mixa h3,
 #es-mixa.es-mixa h4,
 #es-mixa.es-mixa h5 {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   color: #c40435;
 }
 
 #es-mixa.es-mixa {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-size: 16px;
   font-weight: 300;
   line-height: 1.2;
@@ -319,7 +319,7 @@
   justify-content: space-between;
 }
 #es-mixa.es-mixa .es-percents__row:before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0;
@@ -452,10 +452,9 @@
   font-size: 11px;
   font-weight: 500;
   color: #000;
-  white-space: nowrap;
 }
 #es-mixa.es-mixa .es-ingr__listItem:before {
-  content: "•";
+  content: '•';
   color: #c40435;
   font-size: 20px;
   font-weight: 900;
@@ -491,7 +490,7 @@
 }
 #es-mixa.es-mixa .es-routine__container {
   margin: auto;
-  margin-top: 3rem;
+  margin-top: 48px;
   overflow-x: auto;
 }
 #es-mixa.es-mixa .es-routine__table {
@@ -502,14 +501,14 @@
   border: none;
 }
 #es-mixa.es-mixa .es-routine__thead {
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 500;
   text-align: left;
 }
 #es-mixa.es-mixa .es-routine__th {
   margin: 0 auto;
   text-align: center;
-  padding: 0.75rem 0.8rem;
+  padding: 12px 12.8px;
   vertical-align: bottom;
 }
 #es-mixa.es-mixa .es-routine__td {
@@ -545,16 +544,16 @@
   border-radius: 10px 0 0 10px;
 }
 #es-mixa.es-mixa .es-routine tr:last-child td:first-child {
-  border-bottom-left-radius: 0.5rem;
+  border-bottom-left-radius: 8px;
 }
 #es-mixa.es-mixa .es-routine th:first-child {
-  border-top-left-radius: 0.5rem;
+  border-top-left-radius: 8px;
 }
 #es-mixa.es-mixa .es-routine tr:last-child td:last-child {
-  border-bottom-right-radius: 0.5rem;
+  border-bottom-right-radius: 8px;
 }
 #es-mixa.es-mixa .es-routine th:last-child {
-  border-top-right-radius: 0.5rem;
+  border-top-right-radius: 8px;
 }
 #es-mixa.es-mixa .es-cross {
   margin: 0;
@@ -682,7 +681,7 @@
     font-size: 14px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   #es-mixa.es-mixa .es-kv__bg-desktop {
     max-width: 100%;
     display: block;
@@ -752,13 +751,11 @@
     transform: translate(-50%, -50%);
     z-index: 3;
   }
-}
-@media screen and (min-width: 768px) {
+
   #es-mixa.es-mixa .es-percents__image {
     max-width: 360px;
   }
-}
-@media screen and (min-width: 930px) {
+
   #es-mixa.es-mixa .es-kv__title {
     margin-top: 20px;
   }
@@ -845,4 +842,4 @@
   #es-mixa.es-mixa .es-percents__image {
     max-width: 255px;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
